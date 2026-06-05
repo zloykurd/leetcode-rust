@@ -20,7 +20,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::p0001_two_sum::two_sum;
+    use crate::easy::arrays_hashing::p0001_two_sum::two_sum;
 
     #[test]
     fn leetcode_two_sum_test1() {
