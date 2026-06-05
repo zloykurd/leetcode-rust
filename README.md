@@ -7,8 +7,8 @@ that a naive solution would miss. Run `cargo test`.
 
 | # | Problem | Difficulty | Pattern | Solution |
 |---|---------|------------|---------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`p0001_two_sum.rs`](src/easy/p0001_two_sum.rs) |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`p0001_two_sum.rs`](src/easy/arrays_hashing/p0001_two_sum.rs) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [`p0217_contains_duplicate.rs`](src/easy/arrays_hashing/p0217_contains_duplicate.rs) |
 
 Problem statements are not reproduced here (© LeetCode). Each file links to the
 original problem and summarizes the task in my own words.
