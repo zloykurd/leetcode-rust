@@ -3,3 +3,4 @@
 //! Each problem lives in its own module with unit tests. Run `cargo test`.
 
 pub mod easy;
+pub mod medium;
