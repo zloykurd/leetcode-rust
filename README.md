@@ -9,6 +9,7 @@ that a naive solution would miss. Run `cargo test`.
 |-----|---------|------------|---------|----------|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`p0001_two_sum.rs`](src/easy/arrays_hashing/p0001_two_sum.rs) |
 | 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked List | [`p0002_add_two_numbers.rs`](src/medium/linked_list/p0002_add_two_numbers.rs) |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | [`p0206_reverse_linked_list.rs`](src/easy/linked_list/p0206_reverse_linked_list.rs) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [`p0217_contains_duplicate.rs`](src/easy/arrays_hashing/p0217_contains_duplicate.rs) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [`p0242_valid_anagram.rs`](src/easy/arrays_hashing/p0242_valid_anagram.rs) |
 
