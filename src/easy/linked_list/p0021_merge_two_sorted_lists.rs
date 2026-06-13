@@ -22,31 +22,21 @@ pub fn merge_two_lists(
     }
 }
 
-#[allow(unused)]
-fn from_list_to_nodes(values: &[i32]) -> Option<Box<ListNode>> {
-    let mut head: Option<Box<ListNode>> = None;
-    for &val in values.iter().rev() {
-        head = Some(Box::new(ListNode { val, next: head }));
-    }
-
-    head
-}
-
-#[allow(unused)]
-fn to_vec(list: Option<Box<ListNode>>) -> Vec<i32> {
-    let mut values = Vec::new();
-    let mut current = list;
-    while let Some(node) = current {
-        values.push(node.val);
-        current = node.next;
-    }
-    values
-}
-
 #[cfg(test)]
 mod tests {
 
-    use super::*;
+    use super::merge_two_lists;
+    use super::ListNode;
+
+    fn from_list_to_nodes(values: &[i32]) -> Option<Box<ListNode>> {
+        let mut head: Option<Box<ListNode>> = None;
+        for &val in values.iter().rev() {
+            head = Some(Box::new(ListNode { val, next: head }));
+        }
+
+        head
+    }
+
     #[test]
     fn leetcode_merge_two_lists_test() {
         assert_eq!(
