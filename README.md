@@ -13,6 +13,7 @@ that a naive solution would miss. Run `cargo test`.
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | [`p0167_two_sum_ii.rs`](src/medium/two_pointers/p0167_two_sum_ii.rs) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | [`p0206_reverse_linked_list.rs`](src/easy/linked_list/p0206_reverse_linked_list.rs) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [`p0217_contains_duplicate.rs`](src/easy/arrays_hashing/p0217_contains_duplicate.rs) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers | [`p0125_valid_palindrome.rs`](src/easy/two_pointers/p0125_valid_palindrome.rs) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Arrays & Hashing | [`p0242_valid_anagram.rs`](src/easy/arrays_hashing/p0242_valid_anagram.rs) |
 
 Problem statements are not reproduced here (© LeetCode). Each file links to the
