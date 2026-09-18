@@ -9,6 +9,7 @@ that a naive solution would miss. Run `cargo test`.
 |-----|---------|------------|---------|----------|
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`p0001_two_sum.rs`](src/easy/arrays_hashing/p0001_two_sum.rs) |
 | 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked List | [`p0002_add_two_numbers.rs`](src/medium/linked_list/p0002_add_two_numbers.rs) |
+| 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window | [`p0003_longest_substring_without_repeating_characters.rs`](src/medium/sliding_window/p0003_longest_substring_without_repeating_characters.rs) |
 | 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers | [`p0011_container_with_most_water.rs`](src/medium/two_pointers/p0011_container_with_most_water.rs) |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Linked List | [`p0021_merge_two_sorted_lists.rs`](src/easy/linked_list/p0021_merge_two_sorted_lists.rs) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window | [`p0121_best_time_to_buy_and_sell_stock.rs`](src/easy/sliding_window/p0121_best_time_to_buy_and_sell_stock.rs) |
